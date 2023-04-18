@@ -149,16 +149,24 @@
             </dependency>
             <dependency>
               <groupId>net.sourceforge.pmd</groupId>
-              <artifactId>pmd-javascript</artifactId>
+              <artifactId>pmd-jsp</artifactId>
               <version>${pmd.version}</version>
             </dependency>
             <dependency>
               <groupId>net.sourceforge.pmd</groupId>
-              <artifactId>pmd-jsp</artifactId>
+              <artifactId>pmd-xml</artifactId>
+              <version>${pmd.version}</version>
+            </dependency>
+            <dependency>
+              <groupId>net.sourceforge.pmd</groupId>
+              <artifactId>pmd-html</artifactId>
               <version>${pmd.version}</version>
             </dependency>
           </dependencies>
           <configuration>
+            <rulesets>
+              <ruleset>pmdrules.xml</ruleset>
+            </rulesets>
             <linkXref>true</linkXref>
             <inputEncoding>utf-8</inputEncoding>
             <minimumTokens>100</minimumTokens>

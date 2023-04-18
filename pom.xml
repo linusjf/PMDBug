@@ -77,7 +77,21 @@
     <gmavenplus.plugin.version>2.1.0</gmavenplus.plugin.version>
     <junit.version>5.9.2</junit.version>
     <pmd.version>7.0.0-rc1</pmd.version>
+    <pmd.plugin.version>3.20.1-pmd-7-SNAPSHOT</pmd.plugin.version>
   </properties>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>https://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -121,7 +135,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-pmd-plugin</artifactId>
-          <version>3.20.0</version>
+          <version>${pmd.plugin.version}</version>
           <dependencies>
             <dependency>
               <groupId>net.sourceforge.pmd</groupId>

@@ -7,18 +7,18 @@ package lm;
 
 public class Service {
 
-  private Database database;
+  private final Database database;
 
   public Service(Database database) {
     this.database = database;
   }
 
-  public boolean query(String query) {
+  public boolean query() {
     return database.isAvailable();
   }
 
   @Override
   public String toString() {
-    return "Using database with id: " + String.valueOf(database.getUniqueId());
+    return "Using database with id: " + database.getUniqueId();
   }
 }

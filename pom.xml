@@ -68,7 +68,7 @@
     <maven.versions.plugin.version>
     2.15.0</maven.versions.plugin.version>
     <maven.dependency.plugin.version>
-    3.5.0</maven.dependency.plugin.version>
+    3.6.0</maven.dependency.plugin.version>
     <maven.jxr.plugin.version>3.3.0</maven.jxr.plugin.version>
     <maven.help.plugin.version>3.4.0</maven.help.plugin.version>
     <maven.exec.plugin.version>3.1.0</maven.exec.plugin.version>
@@ -77,7 +77,7 @@
     <gmavenplus.plugin.version>2.1.0</gmavenplus.plugin.version>
     <junit.version>5.9.3</junit.version>
     <pmd.version>7.0.0-SNAPSHOT</pmd.version>
-    <pmd.plugin.version>3.20.1-pmd-7-SNAPSHOT</pmd.plugin.version>
+    <pmd.plugin.version>3.21.0</pmd.plugin.version>
   </properties>
   <repositories>
     <repository>

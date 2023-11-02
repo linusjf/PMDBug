@@ -77,7 +77,7 @@
     <gmavenplus.plugin.version>2.1.0</gmavenplus.plugin.version>
     <junit.version>5.10.0</junit.version>
     <pmd.version>7.0.0-SNAPSHOT</pmd.version>
-    <pmd.plugin.version>3.21.0</pmd.plugin.version>
+    <pmd.plugin.version>3.21.2</pmd.plugin.version>
   </properties>
   <repositories>
     <repository>
